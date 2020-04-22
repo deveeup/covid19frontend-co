@@ -16,7 +16,7 @@ deploy:
   skip-cleanup: true
   keep-history: true
   github-token: $GITHUB_TOKEN
-  local-dir: public/
+  local-dir: build/
   target-branch: gh-pages
   commit-message: 'deploy this proyect'
   on:
