@@ -1,10 +1,11 @@
 import React from "react";
-
+import Layout from "./components/layout";
+import "./style/normalize.css";
 function App() {
   return (
-    <div>
-      <p>asd</p>
-    </div>
+    <Layout>
+      <p>react router</p>
+    </Layout>
   );
 }
 
