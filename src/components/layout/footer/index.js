@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import home from "../../../assets/img/icons/home.svg";
 import map from "../../../assets/img/icons/map.svg";
 import elbow from "../../../assets/img/icons/elbow.svg";
@@ -9,21 +10,21 @@ import "./styles.styl";
 const Footer = () => {
   return (
     <footer>
-      <a href="#">
+      <Link to="/">
         <img src={home} alt="" />
-      </a>
-      <a href="#">
+      </Link>
+      <Link to="/mapa">
         <img src={map} alt="" />
-      </a>
-      <a href="#">
+      </Link>
+      <Link to="">
         <img src={elbow} alt="" />
-      </a>
-      <a href="#">
+      </Link>
+      <Link to="">
         <img src={sick} alt="" />
-      </a>
-      <a href="#">
+      </Link>
+      <Link to="">
         <img src={info} alt="" />
-      </a>
+      </Link>
     </footer>
   );
 };

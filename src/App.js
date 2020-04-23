@@ -1,10 +1,16 @@
 import React from "react";
 import Layout from "./components/layout";
+import { Switch, Route } from "react-router-dom";
+import Home from "./components/pages/home";
+import Map from "./components/pages/map";
 import "./style/normalize.css";
 function App() {
   return (
     <Layout>
-      <p>react router</p>
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/mapa" component={Map} />
+      </Switch>
     </Layout>
   );
 }
