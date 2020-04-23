@@ -6,7 +6,9 @@ const Header = () => {
   return (
     <header>
       <img src={logo} alt="" />
-      <p>123 header</p>
+      <p>
+        <span>COVID19</span>col
+      </p>
     </header>
   );
 };
