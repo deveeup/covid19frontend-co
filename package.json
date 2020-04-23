@@ -14,7 +14,7 @@
     "stylus": "^0.54.7"
   },
   "scripts": {
-    "build": "./node_modules/.bin/webpack",
+    "build": "webpack",
     "build:local": "./node_modules/.bin/webpack-dev-server"
   },
   "eslintConfig": {
