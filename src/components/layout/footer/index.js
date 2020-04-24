@@ -5,8 +5,7 @@ import map from "../../../assets/img/icons/map.svg";
 import elbow from "../../../assets/img/icons/elbow.svg";
 import sick from "../../../assets/img/icons/sick.svg";
 import info from "../../../assets/img/icons/info.svg";
-
-import "./styles.styl";
+import "./styles.scss";
 const Footer = () => {
   return (
     <footer>
