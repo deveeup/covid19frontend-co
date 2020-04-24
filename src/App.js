@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "./components/layout";
 import { Switch, Route } from "react-router-dom";
-import Home from "./components/pages/home";
+import Home from "./components/pages/home/index";
 import Map from "./components/pages/map";
 import "./App.scss";
 function App() {
