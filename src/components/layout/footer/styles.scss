@@ -1,0 +1,25 @@
+@import "../../../style/vars.scss";
+
+footer {
+  background-color: $blue_s;
+  padding: 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  a {
+    width: 20%;
+    margin: 0;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  img {
+    width: 25px;
+    margin: 0;
+    padding: 0;
+  }
+}

@@ -3,7 +3,7 @@ import Layout from "./components/layout";
 import { Switch, Route } from "react-router-dom";
 import Home from "./components/pages/home";
 import Map from "./components/pages/map";
-import "./style/normalize.css";
+import "./App.scss";
 function App() {
   return (
     <Layout>
