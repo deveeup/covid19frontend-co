@@ -96,13 +96,16 @@
     &-item {
       width: 95%;
       margin: auto;
+      border-bottom: 1px solid rgba(gray, 0.3);
       &-header {
         width: calc(100% - 40px);
         padding: 0 20px;
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        border-bottom: 1px solid rgba(gray, 0.3);
+      }
+      &:last-child {
+        border: 1px solid transparent !important;
       }
       img {
         width: 20px;
