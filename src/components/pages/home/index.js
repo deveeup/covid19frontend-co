@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useState, useEffect } from "react";
 import InfoCol from "./info-col";
 import InfoColDetail from "./info-col-detail";
