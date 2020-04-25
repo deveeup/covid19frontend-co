@@ -7,8 +7,8 @@ import axios from "axios";
 import "./index.scss";
 const Home = () => {
   const [renderData, setRenderData] = useState({});
-  const proxyurl = "https://cors-anywhere.herokuapp.com/";
-  const api = "https://covid19backend-co.herokuapp.com/api/colombia/25-04-2020";
+  const proxyurl = process.env.REACT_APP_URL_CORS;
+  const api = `${process.env.REACT_APP_URL_API_COL}/25-04-2020`;
   useEffect(() => {
     const getData = async () => {
       await axios.get(proxyurl + api).then((response) => {
