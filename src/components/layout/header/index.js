@@ -4,7 +4,6 @@ import "./styles.scss";
 const Header = () => {
   return (
     <header>
-      <img src={logo} alt="" />
       <p>
         <span>COVID19</span>col
       </p>
