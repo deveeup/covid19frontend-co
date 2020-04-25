@@ -1,12 +1,12 @@
 const initialState = {};
 export default function (state = initialState, action) {
   switch (action.type) {
-    case "ADD_BASIC_DATA":
+    case "ADD_DATA":
       return {
         ...state,
         colombia: action.payload,
       };
-    case "REMOVE_BASIC_DATA":
+    case "REMOVE_DATA":
       return {
         ...initialState,
       };

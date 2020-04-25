@@ -8,21 +8,21 @@ import dead from "../../../assets/img/icons/icon_dead.svg";
 import boy from "../../../assets/img/icons/icon_boy.svg";
 import man from "../../../assets/img/icons/icon_man.svg";
 import granFather from "../../../assets/img/icons/icon_granfather.svg";
-const InfoColDetail = ({ title, details }) => {
+const InfoColDetail = ({ details }) => {
   return (
     <div className="Home-card">
       <h4>Genero</h4>
       <div className="Home-card-item">
         <img src={male} alt="" />
         <p>
-          <span>1456</span>
+          <span>{details.sexM}</span>
           Hombres
         </p>
       </div>
       <div className="Home-card-item">
         <img src={female} alt="" />
         <p>
-          <span>1456</span>
+          <span>{details.sexF}</span>
           Mujeres
         </p>
       </div>
@@ -31,28 +31,28 @@ const InfoColDetail = ({ title, details }) => {
       <div className="Home-card-item">
         <img src={recovered} alt="" />
         <p>
-          <span>1456</span>
+          <span>{details.recovered}</span>
           Recuperados
         </p>
       </div>
       <div className="Home-card-item">
         <img src={inHouse} alt="" />
         <p>
-          <span>1456</span>
+          <span>{details.inHouse}</span>
           En casa
         </p>
       </div>
       <div className="Home-card-item">
         <img src={inHospital} alt="" />
         <p>
-          <span>1456</span>
+          <span>{details.inHospital}</span>
           En hospital
         </p>
       </div>
       <div className="Home-card-item">
         <img src={dead} alt="" />
         <p>
-          <span>1456</span>
+          <span>{details.dead}</span>
           Muertos
         </p>
       </div>
@@ -61,28 +61,28 @@ const InfoColDetail = ({ title, details }) => {
       <div className="Home-card-item">
         <img src={boy} alt="" />
         <p>
-          <span>1456</span>
+          <span>{details.ageRange.smallerThan20}</span>
           Hasa 20 años
         </p>
       </div>
       <div className="Home-card-item">
         <img src={man} alt="" />
         <p>
-          <span>1456</span>
+          <span>{details.ageRange.between20And40}</span>
           Entre 20 y 40 años
         </p>
       </div>
       <div className="Home-card-item">
         <img src={man} alt="" />
         <p>
-          <span>1456</span>
+          <span>{details.ageRange.between40And60}</span>
           Entre 40 y 60 años
         </p>
       </div>
       <div className="Home-card-item">
         <img src={granFather} alt="" />
         <p>
-          <span>1456</span>
+          <span>{details.ageRange.greaterThan60}</span>
           Mayores de 60 años
         </p>
       </div>
