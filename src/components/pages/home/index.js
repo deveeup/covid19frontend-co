@@ -1,19 +1,20 @@
 import React from "react";
 import logoCol from "../../../assets/img/colombia_img.png";
-import male from "../../../assets/img/icons/male.svg";
-import female from "../../../assets/img/icons/female.svg";
-import recovered from "../../../assets/img/icons/recovered.svg";
-import inHouse from "../../../assets/img/icons/house.svg";
-import inHospital from "../../../assets/img/icons/hospital.svg";
-import dead from "../../../assets/img/icons/rip.svg";
-import boy from "../../../assets/img/icons/boy.svg";
-import man from "../../../assets/img/icons/man.svg";
-import man2 from "../../../assets/img/icons/man2.svg";
-import granFather from "../../../assets/img/icons/granFather.svg";
+import male from "../../../assets/img/icons/icon_male.svg";
+import female from "../../../assets/img/icons/icon_female.svg";
+import recovered from "../../../assets/img/icons/icon_heart.svg";
+import inHouse from "../../../assets/img/icons/icon_home.svg";
+import inHospital from "../../../assets/img/icons/icon_hospital.svg";
+import dead from "../../../assets/img/icons/icon_dead.svg";
+import boy from "../../../assets/img/icons/icon_boy.svg";
+import man from "../../../assets/img/icons/icon_man.svg";
+import granFather from "../../../assets/img/icons/icon_granfather.svg";
+import downArrow from "../../../assets/img/icons/iconDown.svg";
 import "./index.scss";
 const Home = () => {
   return (
     <div className="Home">
+      <h2>Colombia</h2>
       <div className="Home-card">
         <img src={logoCol} alt="" />
         <div className="Home-card-info">
@@ -29,14 +30,14 @@ const Home = () => {
           <img src={male} alt="" />
           <p>
             <span>1456</span>
-            En tal lado
+            Hombres
           </p>
         </div>
         <div className="Home-card-item">
           <img src={female} alt="" />
           <p>
             <span>1456</span>
-            En tal lado
+            Mujeres
           </p>
         </div>
         <div className="separator" />
@@ -45,28 +46,28 @@ const Home = () => {
           <img src={recovered} alt="" />
           <p>
             <span>1456</span>
-            En tal lado
+            Recuperados
           </p>
         </div>
         <div className="Home-card-item">
           <img src={inHouse} alt="" />
           <p>
             <span>1456</span>
-            En tal lado
+            En casa
           </p>
         </div>
         <div className="Home-card-item">
           <img src={inHospital} alt="" />
           <p>
             <span>1456</span>
-            En tal lado
+            En hospital
           </p>
         </div>
         <div className="Home-card-item">
           <img src={dead} alt="" />
           <p>
             <span>1456</span>
-            En tal lado
+            Muertos
           </p>
         </div>
         <div className="separator" />
@@ -75,29 +76,62 @@ const Home = () => {
           <img src={boy} alt="" />
           <p>
             <span>1456</span>
-            En tal lado
+            Hasa 20 años
           </p>
         </div>
         <div className="Home-card-item">
           <img src={man} alt="" />
           <p>
             <span>1456</span>
-            En tal lado
+            Entre 20 y 40 años
           </p>
         </div>
         <div className="Home-card-item">
-          <img src={man2} alt="" />
+          <img src={man} alt="" />
           <p>
             <span>1456</span>
-            En tal lado
+            Entre 40 y 60 años
           </p>
         </div>
         <div className="Home-card-item">
           <img src={granFather} alt="" />
           <p>
             <span>1456</span>
-            En tal lado
+            Mayores de 60 años
           </p>
+        </div>
+      </div>
+      <h2>Información de casos por departamento</h2>
+      <div className="Home-departaments">
+        <div className="Home-departaments-item">
+          <div className="Home-departaments-item-header">
+            <img src={downArrow} alt="" />
+            <p>Nombre del departamento</p>
+          </div>
+        </div>
+        <div className="Home-departaments-item">
+          <div className="Home-departaments-item-header">
+            <img src={downArrow} alt="" />
+            <p>Nombre del departamento</p>
+          </div>
+        </div>
+        <div className="Home-departaments-item">
+          <div className="Home-departaments-item-header">
+            <img src={downArrow} alt="" />
+            <p>Nombre del departamento</p>
+          </div>
+        </div>
+        <div className="Home-departaments-item">
+          <div className="Home-departaments-item-header">
+            <img src={downArrow} alt="" />
+            <p>Nombre del departamento</p>
+          </div>
+        </div>
+        <div className="Home-departaments-item">
+          <div className="Home-departaments-item-header">
+            <img src={downArrow} alt="" />
+            <p>Nombre del departamento</p>
+          </div>
         </div>
       </div>
     </div>
