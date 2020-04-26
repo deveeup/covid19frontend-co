@@ -1,5 +1,5 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import React, { useCallback, useState, useEffect } from "react";
+import React, { useCallback, useEffect } from "react";
 import InfoCol from "./info-col";
 import InfoColDetail from "./info-col-detail";
 import InfoDepartaments from "./info-departaments";
